@@ -21,20 +21,19 @@ so that a linux machine can ping a windows machine
 	4. In the right pane, find the rules titled File and Printer Sharing (Echo Request - ICMPv4-In).
 	5. Right-click each rule and choose Enable Rule.
 
-Now on the ubuntu server, install openssh-server using
+1. Now on the ubuntu server, install openssh-server using
 `sudo apt install openssh-server`
 
-check if it is running using
+2. check if it is running using
 `sudo systemctl status ssh`
 
-then give permission to allow ssh through the ubuntu firewall(ufw)
+3. then give permission to allow ssh through the ubuntu firewall(ufw)
 `sudo ufw allow ssh`
 
 SSH setup is ready
 
 
 now run ip a (on ubuntu to get the ip address of the machine)
-
 
 then run `ssh <name-of-ubuntu-server>@<ip-address>`
 press yes on the prompt to establish the ssh handshake.

@@ -33,7 +33,7 @@ so that a linux machine can ping a windows machine
 SSH setup is ready
 
 
-now run ip a (on ubuntu to get the ip address of the machine)
+now run `ip a`(on ubuntu to get the ip address of the machine)
 
 then run `ssh <name-of-ubuntu-server>@<ip-address>`
 press yes on the prompt to establish the ssh handshake.

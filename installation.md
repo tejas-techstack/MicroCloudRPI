@@ -13,7 +13,7 @@
 Windows does not allow icmp natively, hence we must enable this,
 so that a linux machine can ping a windows machine
 
-`https://kb.iu.edu/d/aopy`  refer this for steps to enable firewall in windows
+[enable icmp in windows](`https://kb.iu.edu/d/aopy`)  refer this for steps to enable firewall in windows
 
 	1. Search for Windows Firewall, and click to open it.
 	2. Click Advanced Settings on the left.

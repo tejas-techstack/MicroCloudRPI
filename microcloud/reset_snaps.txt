@@ -1,0 +1,10 @@
+sudo snap remove lxd
+sudo snap remove microcloud
+sudo snap remove microceph
+sudo snap remove microovn
+sudo snap install lxd
+sudo snap install microceph --channel=quincy/stable --cohort="+"
+sudo snap install microovn --channel=22.03/stable --cohort="+"
+sudo snap install microcloud --channel=latest/stable --cohort="+"
+sudo snap refresh lxd --channel=5.21/stable --cohort="+"
+

@@ -10,4 +10,5 @@ what is microcloud?
 
 Redis: What It Is, What It Does, and Why You Should Care:
 [redis](https://backendless.com/redis-what-it-is-what-it-does-and-why-you-should-care/#1670599762368-db4223a0-cc7a)
-
+how to install microcloud?
+[microcloud docs](https://canonical-microcloud.readthedocs-hosted.com/en/latest/)

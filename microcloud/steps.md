@@ -27,8 +27,17 @@ Networking requirements:
    additionally the network interface needs to support broadcast and multicast.
 2. The IP addresses of the machines must not change after installation.
 
+Steps To install Microcloud:
+On each system install the following:
+```
+snap install lxd --channel=5.21/stable --cohort="+"
+snap install microceph --channel=quincy/stable --cohort="+"
+snap install microovn --channel=22.03/stable --cohort="+"
+snap install microcloud --channel=latest/stable --cohort="+"
+```
 
 
+```
 
 
 

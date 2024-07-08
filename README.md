@@ -18,8 +18,8 @@ Company X has locations worldwide and a single data center. Accessing this data 
 How about a small scale one:
 Smartwatches use edge computing. Heart rate scanners can't process data, so a processor (edge computer) in the watch processes raw data, converts it to useful information, and:
 
-    Sends it to the phone if connected.
-    Stores it locally until it can connect to the phone and offload the data.
+1. Sends it to the phone if connected.
+2. Stores it locally until it can connect to the phone and offload the data.
 
 ## How Can MicroCloud Act as an Edge Computer?
 

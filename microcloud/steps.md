@@ -123,4 +123,3 @@ Once a instance has been brought up you can enter the instance using:
 You can check if the networks are connected by pinging the ip addresses of different instances from one instance using the ip addresses given at lxc list. You can also test internet connection from the instance using `ping www.google.com`
 
 Note: you cannot ping the ip addresses of an instance from the external world.
-```
